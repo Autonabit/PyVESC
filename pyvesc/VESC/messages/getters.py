@@ -61,7 +61,7 @@ class GetValues(metaclass=VESCMessage):
         ('tachometer_abs', 'i', 1),
         ('mc_fault_code', 'c', 0),
         ('pid_pos_now', 'i', 1000000),
-        ('app_controller_id', 'c', 0),
+        ('app_controller_id', 'b', 0),
         ('time_ms', 'i', 1),
     ]
 
